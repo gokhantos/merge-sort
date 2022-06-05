@@ -6,9 +6,9 @@ def main():
     outfile = open('numbers.txt', 'a+')
 
     #Produce the numbers
-    for count in range(1000):
+    for count in range(1000000):
         #Get a random number.
-        num = random.randint(1, 1000)
+        num = random.randint(1, 10000)
         outfile.write(str(num)+"\n")
     
     #Close the file.
